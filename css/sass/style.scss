@@ -18,6 +18,27 @@ and Blueprint http://www.blueprintcss.org/
 /* =Global
 ----------------------------------------------- */
 
+header {
+	text-align: center;
+
+	&.heading {
+		padding: 30px;
+	}
+}
+
+.vid-wrapper {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#promo-vid {
+
+
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+
 
 /* =Media Queries / Responsive Styles Imports
 ----------------------------------------------- */
