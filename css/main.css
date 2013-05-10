@@ -5290,13 +5290,20 @@ header {
     padding: 30px; }
 
 .vid-wrapper {
-  width: 40%;
+  width: 360px;
   margin: 0 auto;
   padding-top: 50px; }
 
 #promo-vid {
   -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg); }
+  -moz-transform: rotate(90deg);
+  position: relative;
+  top: 0;
+  left: -60px; }
+
+.vid-controls {
+  width: 130px;
+  margin: 70px auto; }
 
 /* =Media Queries / Responsive Styles Imports
 ----------------------------------------------- */

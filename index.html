@@ -21,11 +21,22 @@
 
         <header class="hero-unit heading">
             <h1>Scott &amp; Josh's Wet Muffins</h1>
-            <p>From Scott &amp; Josh</p>
+            <h3>From Scott &amp; Josh</h3>
         </header>
 
         <div class="vid-wrapper">
             <video id="promo-vid" src="vids/promo.mov" autoplay></video>
+        </div>
+        <div class="vid-controls">
+            <button id="vid-restart" action=restart class="btn btn-success">
+                <i class="icon-step-backward"></i>
+            </button>
+            <button id="vid-pause" action=pause class="btn btn-success">
+                <i class="icon-pause"></i>
+            </button>
+            <button id="vid-play" action=play class="btn btn-success">
+                <i class="icon-play"></i>
+            </button>
         </div>
 
         <!-- google analytics -->
@@ -43,7 +54,6 @@
         <script src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/impress.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
