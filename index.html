@@ -25,7 +25,14 @@
         </header>
 
         <div class="vid-wrapper">
-            <video id="promo-vid" src="vids/promo.mov" autoplay></video>
+            <video id="promo-vid" preload>
+                <!-- many thanks to dive into HTML5 for the video tutorial
+                     find it here: http://diveintohtml5.info/video.html
+                 -->
+                <source src="vids/promo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+                <source src="vids/promo.webm" type="video/webm; codecs=vp8,vorbis">
+                <source src="vids/promo.ogv"  type="video/ogg; codecs=theora,vorbis">
+            </video>
         </div>
         <div class="vid-controls">
             <button id="vid-restart" action=restart class="btn btn-success">
