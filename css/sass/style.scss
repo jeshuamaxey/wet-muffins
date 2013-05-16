@@ -25,22 +25,25 @@ body {
 header {
 	background-image: url('../img/bg/light1.png');
 	text-align: center;
+	border-bottom: solid 1px #ccc;
 
 	&.heading {
 		padding: 30px;
 	}
 }
 
-.main {
-	width: 800px;
-	padding-right: 150px;
+.wrapper {
+	min-height: 450px;
 
-	ul.nav-tabs {
+	.main {
+		ul.nav-tabs {
+		}
 	}
 }
 
 .tab-pane {
 	text-align: center;
+	overflow: hidden;
 
 	p {
 		//font-size:;
@@ -65,6 +68,16 @@ header {
 .vid-controls {
 	width: 130px;
 	margin: 70px auto;
+}
+
+.youtube-vid {
+	margin-bottom: 50px;
+}
+
+footer {
+	background-image: url('../img/bg/light1.png');
+	text-align: center;
+	border-top: solid 1px #ccc;
 }
 
 

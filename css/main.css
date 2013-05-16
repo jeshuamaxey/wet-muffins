@@ -5286,16 +5286,17 @@ a.badge:focus {
 ----------------------------------------------- */
 header {
   background-image: url("../img/bg/light1.png");
-  text-align: center; }
+  text-align: center;
+  border-bottom: solid 1px #ccc; }
   header.heading {
     padding: 30px; }
 
-.main {
-  width: 800px;
-  padding-right: 150px; }
+.wrapper {
+  min-height: 450px; }
 
 .tab-pane {
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   .tab-pane p {
     margin: 20px auto; }
 
@@ -5315,17 +5316,40 @@ header {
   width: 130px;
   margin: 70px auto; }
 
+.youtube-vid {
+  margin-bottom: 50px; }
+
+footer {
+  background-image: url("../img/bg/light1.png");
+  text-align: center;
+  border-top: solid 1px #ccc; }
+
 /* =Media Queries / Responsive Styles Imports
 ----------------------------------------------- */
 /*
 * DESKTOP SPECIFIC STYLES
 */
+@media only screen and (min-width: 1024px) {
+  .main {
+    max-width: 800px;
+    padding-right: 150px; } }
 /*
 * TABLET SPECIFIC STYLES
 */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .main {
+    max-width: 800px;
+    padding-right: 150px; } }
 /*
 * MOBILE SPECIFIC STYLES
 */
+@media only screen and (max-width: 767px) {
+  .tab-pane {
+    text-align: left; }
+
+  .main {
+    width: 80%;
+    text-align: left; } }
 /* =Device Specific Media Queries / Responsive Styles
 ----------------------------------------------- */
 /*
