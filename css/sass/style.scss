@@ -17,8 +17,13 @@ and Blueprint http://www.blueprintcss.org/
 
 /* =Global
 ----------------------------------------------- */
+body {
+	//background-image: url('../img/bg/dark1.png');
+	//color: white;
+}
 
 header {
+	background-image: url('../img/bg/light1.png');
 	text-align: center;
 
 	&.heading {
@@ -27,7 +32,11 @@ header {
 }
 
 .main {
+	width: 800px;
 	padding-right: 150px;
+
+	ul.nav-tabs {
+	}
 }
 
 .tab-pane {

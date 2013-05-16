@@ -5285,11 +5285,13 @@ a.badge:focus {
 /* =Global
 ----------------------------------------------- */
 header {
+  background-image: url("../img/bg/light1.png");
   text-align: center; }
   header.heading {
     padding: 30px; }
 
 .main {
+  width: 800px;
   padding-right: 150px; }
 
 .tab-pane {
